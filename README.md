@@ -1,7 +1,8 @@
 WEB UTILS
 
 # ServerSideDatatableExportAll Usage
-let table = $("table").DataTable({
+```
+$("table").DataTable({
     ajax: {
         url: baseUrl("/laporan-data-barang-fetch"),
         headers: { 'X-XSRF-TOKEN': getCookie('XSRF-TOKEN') },
@@ -136,3 +137,4 @@ let table = $("table").DataTable({
         printButton.prepend('<i class="fa fa-print" aria-hidden="true"></i>&nbsp;');
     },
 });
+```
