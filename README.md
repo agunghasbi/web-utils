@@ -1,6 +1,6 @@
 WEB UTILS
 
-# ServerSideDatatableExportAll Usage
+# ServerSideDatatableExportAll Usage:
 ```
 $("table").DataTable({
     ajax: {
